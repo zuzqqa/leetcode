@@ -1,3 +1,5 @@
+/* Time Complexity: O(n) average, O(n²) worst-case (only if extreme hash collisions occur)
+Space Complexity: O(n) */
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
